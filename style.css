@@ -95,7 +95,15 @@
 }
 
 .ap {
-  border: 2px white solid;
+  border: 0.5px white solid;
+}
+
+.ap:hover {
+  transition: all 100ms;
+  box-shadow: 0em 0.3em 4em rgba(0, 0, 0, 0.6);
+  transform: scale(1.1);
+  cursor: pointer;
+  border-radius: 3px;
 }
 
 .main {
