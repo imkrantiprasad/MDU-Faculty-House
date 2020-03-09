@@ -5,6 +5,11 @@
   margin-bottom: 0px;
 }
 
+.head-img {
+  height: 10%;
+  width: 10%;
+}
+
 .head-txt {
   margin: auto 30px;
 }
