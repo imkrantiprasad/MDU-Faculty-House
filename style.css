@@ -66,6 +66,13 @@
   z-index: 0;
 }
 
+.label {
+  width: 33%;
+  float: left;
+  height: 40px;
+  z-index: 0;
+}
+
 .lobby {
   background-color: #7df559;
   /* height: 80px; */
