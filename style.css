@@ -1,7 +1,3 @@
-body {
-  overflow-x: hidden;
-}
-
 .header {
   width: 70%;
   /* float: left; */
@@ -117,10 +113,6 @@ body {
   width: 8%;
 }
 
-/* .ap {
-  border-right: 0.5px white solid;
-  border-bottom: 0.5px white solid;
-} */
 
 .room:hover {
   transition: all 100ms;
@@ -147,10 +139,6 @@ body {
   cursor: pointer;
   border-radius: 3px;
   z-index: 1;
-}
-
-.main {
-  padding: 5% 0;
 }
 
 @media only screen and (max-device-width: 480px) {
