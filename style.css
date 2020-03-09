@@ -1,8 +1,8 @@
 .header {
-  width: 10%;
+  width: 70%;
   /* float: left; */
-  margin-top: 1%;
-  align-content: center;
+  padding: 1% 32%;
+  margin-bottom: 0px;
 }
 
 .head-img {
