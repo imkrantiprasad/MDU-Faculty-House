@@ -1,0 +1,106 @@
+.header {
+  width: 70%;
+  /* float: left; */
+  padding: 1% 32%;
+  margin-bottom: 0px;
+}
+
+.head-txt {
+  margin: auto 30px;
+}
+
+.date-range {
+  float: left;
+  width: 50%;
+  margin: 0% 35%;
+}
+
+.date-picker>input {
+  float: left;
+  padding: 0.5em;
+  margin: 0em 1%;
+  border-radius: 1.2em;
+}
+
+.date-picker>label {
+  float: left;
+  padding: 0.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.date-picker>button {
+  float: left;
+  padding: 0.5em 1em;
+  margin: 0em 1%;
+  text-decoration: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.building1 {
+  width: 46%;
+  /* display: inline; */
+  /* border: 1px red solid; */
+}
+
+.building2 {
+  width: 46%;
+  /* display: inline; */
+  /* border: 1px red solid; */
+}
+
+.suite {
+  background-color: #7df559;
+  /* height: 80px; */
+  width: 33%;
+  float: left;
+  height: 200px;
+}
+
+.lobby {
+  background-color: #7df559;
+  /* height: 80px; */
+  width: 33%;
+  float: left;
+  height: 400px;
+}
+
+.room {
+  background-color: #7df559;
+  /* height: 80px; */
+  width: 33%;
+  height: 100px;
+  float: left;
+}
+
+.space {
+  width: 8%;
+}
+
+.ap {
+  border: 2px white solid;
+}
+
+.main {
+  padding: 5% 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .building1 {
+    width: 49%;
+    /* margin: auto; */
+  }
+
+  .building2 {
+    width: 49%;
+    /* margin: auto; */
+  }
+
+  .space {
+    width: 2%;
+    /* height: 50px; */
+    /* border: 1px solid red; */
+  }
+}

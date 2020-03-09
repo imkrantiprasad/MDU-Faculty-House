@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MDU | Faculty Housing</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="fonts/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  </head>
+  <body class="">
+    <div class="container header">
+      <div class="row">
+        <img class="head-img" src="logo.png" />
+        <div class="head-txt">
+          <h1 class="head">M.D. University Rohtak</h1>
+          <h1 class="head1">Faculty House Room Reservation Status</h1>
+        </div>
+      </div>
+    </div>
+
+    <section class="shadow-lg p-2 mb-3 mr-3 ml-3 bg-white rounded">
+      <div class="date-range">
+        <form method="get" class="date-picker">
+          <tr>
+            <th><label for="id_test_date">Date:</label></th>
+            <td>
+              <ul class="errorlist">
+                <li>This field is required.</li>
+              </ul>
+              <input
+                type="date"
+                name="test_date"
+                required
+                class=""
+                id="id_test_date"
+              />
+            </td>
+          </tr>
+          <button type="submit">Check Status</button>
+        </form>
+      </div>
+      <div class="main container">
+        <div class="row">
+          <div class="building1"> 
+          <div class="">
+            <div class="suite ap col-4">
+              Suite
+            </div>            
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div>  
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="suite ap col-4">
+              Suite
+            </div>            
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div>  
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div>
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="room ap col-4">
+              Room
+            </div>
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="room ap col-4">
+              Room
+            </div>
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="room ap col-4">
+              Room
+            </div>
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="room ap col-4">
+              Room
+            </div>
+          </div>
+        </div>
+        <div class="space"></div>
+        <div class="building2 "> 
+          <div class="">
+            <div class="lobby ap col-4">
+              Lobby
+            </div>            
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div>  
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div>  
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="lobby ap col-4">
+              Lobby
+            </div>
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="room ap col-4">
+              Room
+            </div>
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="room ap col-4">
+              Room
+            </div>
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <!-- <div class="room ap col-4">
+              Room
+            </div>
+            <br>
+            <div class="room ap col-4">
+              Room
+            </div>        
+            <div class="room ap col-4">
+              Room
+            </div> 
+            <div class="room ap col-4">
+              Room
+            </div> -->
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </body pl-md-3 pl-lg-5 pr-sm-1 pr-md-3 pr-lg-5">
+  <script type="text/javascript">
+    $(document).ready(
+      $(".errorlist").remove(),
+      $(".date-picker > label").addClass("changed")
+    );
+  </script>
+</html>
