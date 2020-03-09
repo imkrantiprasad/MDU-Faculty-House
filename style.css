@@ -1,8 +1,8 @@
 .header {
-  width: 70%;
+  width: 10%;
   /* float: left; */
-  padding: 1% 32%;
-  margin-bottom: 0px;
+  margin-top: 1%;
+  align-content: center;
 }
 
 .head-img {
@@ -10,9 +10,9 @@
   width: 10%;
 }
 
-.head-txt {
+/* .head-txt {
   margin: auto 30px;
-}
+} */
 
 .date-range {
   float: left;
